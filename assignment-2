@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+int num;
+printf("\n enter the number:");
+scanf("%d",&num);
+int i,c=0;
+printf("\n the factors of %d are:");
+for(i=1;i<=num;i++)
+{
+if(num%i==0)
+{
+c++;
+printf("%d",i);
+}
+}
+printf("\n\n total factors of %d:");
+}
